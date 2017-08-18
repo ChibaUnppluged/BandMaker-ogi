@@ -1,3 +1,4 @@
+# coding:utf-8
 from django.contrib import admin
 from instrument.models import instrument
 # Register your models here.

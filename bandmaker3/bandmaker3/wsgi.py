@@ -1,3 +1,6 @@
+# coding:utf-8
+# coding:utf-8
+quote //# coding:utf-8
 """
 WSGI config for bandmaker3 project.
 

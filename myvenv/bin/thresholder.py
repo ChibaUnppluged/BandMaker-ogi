@@ -1,3 +1,4 @@
+# coding:utf-8
 #!/home/ogipochi/django_sample/sample4/myvenv/bin/python3
 #
 # The Python Imaging Library

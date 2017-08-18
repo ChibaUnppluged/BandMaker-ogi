@@ -1,3 +1,6 @@
+# coding:utf-8
+# coding:utf-8
+quote //# coding:utf-8
 """
 Django settings for bandmaker3 project.
 

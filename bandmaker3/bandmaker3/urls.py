@@ -1,3 +1,6 @@
+# coding:utf-8
+# coding:utf-8
+quote //# coding:utf-8
 """bandmaker3 URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:

@@ -1,3 +1,4 @@
+# coding:utf-8
 """login_sample URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:

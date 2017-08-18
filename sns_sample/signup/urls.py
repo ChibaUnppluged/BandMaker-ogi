@@ -1,3 +1,4 @@
+# coding:utf-8
 from django.conf.urls import urls
 import django.contrib.auth.views as auth_views
 from . import views

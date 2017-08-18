@@ -1,3 +1,4 @@
+# coding:utf-8
 #!/home/ogipochi/django_sample/sample4/myvenv/bin/python3
 from __future__ import print_function
 import base64

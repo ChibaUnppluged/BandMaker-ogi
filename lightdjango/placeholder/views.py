@@ -1,3 +1,4 @@
+# coding:utf-8
 from django.http import HttpResponse,HttpResponseBadRequest
 from .models import ImageForm
 from django.views.decorators.http import etag

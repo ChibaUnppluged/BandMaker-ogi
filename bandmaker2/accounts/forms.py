@@ -1,3 +1,4 @@
+# coding:utf-8
 from django import forms
 from accounts.models import MyUser
 
