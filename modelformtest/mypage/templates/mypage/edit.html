@@ -1,0 +1,6 @@
+{% extends 'mypage/base.html' %} {% block content %}
+<form method="post" action="{% url 'mypage:confirm'%}">
+    {% csrf_token %} {{ form }}
+    <input type="submit" value="決定">
+</form>
+{% endblock %}

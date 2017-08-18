@@ -1,0 +1,6 @@
+{% extends 'mypage/base.html' %} {% block content %} {% for field in form %}{{field.label_tag}}{{field.value}}
+<form action="{% url 'mypage:save' %}" method="post">
+    {% csrf_token %}
+    <input type="submit" value="決定">
+</form>
+<a href="{% url 'mypage:regist' %}">戻る</a> {% endblock %}

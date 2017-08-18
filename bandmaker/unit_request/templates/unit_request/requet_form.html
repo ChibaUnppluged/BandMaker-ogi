@@ -1,0 +1,7 @@
+{% extends 'accounts/base.html' %} {% block content %}
+<p>リクエストフォーム</p>
+<form action="{% url 'unit_request:request_confirm' %}" method="POST">
+    {{form.as_p}}{% csrf_token %}
+    <input type="submit" value="登録">
+</form>
+{% endblock %}
