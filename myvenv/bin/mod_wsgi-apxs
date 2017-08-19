@@ -1,0 +1,10 @@
+#!/home/ogipochi/django_sample/sample4/myvenv/bin/python3
+# EASY-INSTALL-ENTRY-SCRIPT: 'mod-wsgi-httpd==2.4.23.2','console_scripts','mod_wsgi-apxs'
+__requires__ = 'mod-wsgi-httpd==2.4.23.2'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('mod-wsgi-httpd==2.4.23.2', 'console_scripts', 'mod_wsgi-apxs')()
+    )

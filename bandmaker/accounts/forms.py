@@ -1,4 +1,3 @@
-# coding:utf-8
 from django import forms
 from accounts.models import MyUser
 
@@ -8,6 +7,9 @@ class UserForm(forms.ModelForm):
     class Meta:
         model = MyUser
         fields = ('email','first_name','last_name',)
+    def __init__(self, *args, **kwargs):
+        super(UserForm, self).__init__(*args, **kwargs)
+        self.fields['email'].widget.attrs.update({'class' : ''})
     def clean_password2(self):
         # バリデーション済のデータを取得
         password1 = self.cleaned_data.get('password1')
